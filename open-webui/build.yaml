@@ -1,2 +1,5 @@
 build_from:
   amd64: ghcr.io/open-webui/open-webui:ollama
+labels:
+  org.opencontainers.image.title: "Open WebUI Home Assistant Addon"
+  org.opencontainers.image.description: "Open WebUI is an extensible, self-hosted interface for AI that adapts to your workflow, all while operating entirely offline."
