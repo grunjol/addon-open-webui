@@ -1,5 +1,5 @@
 name: "Open WebUI"
-version: "0.6.33"
+version: "0.6.34"
 slug: "open-webui"
 description: "Open WebUI is an extensible, self-hosted interface for AI that adapts to your workflow, all while operating entirely offline."
 url: https://openwebui.com
@@ -13,7 +13,15 @@ map:
   - type: data
     path: /root/.ollama
 legacy: True
-host_network: True
+
+ports:
+  8084/tcp: 8084
+  11434/tcp: 11143
+
+ports_description:
+  8084/tcp:  Open WebUI port
+  11434/tcp: Ollama port
+
 options:
   port: 8084
   env_vars: []
