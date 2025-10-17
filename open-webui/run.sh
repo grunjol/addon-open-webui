@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eo pipefail  # Fail on errors and pipeline errors
 
-INPUT_FILE="/data/options.json"
+INPUT_FILE="/root/.ollama/options.json"
 
 # Single pass processing combining both env sources
 while IFS= read -r line; do
