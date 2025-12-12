@@ -20,7 +20,7 @@ jobs:
         uses: home-assistant/builder@master
         with:
           args: |
-            --all \
+            --amd64 \
             --target open-webui \
             --docker-hub grunjol \
             --image open-webui-{arch}
