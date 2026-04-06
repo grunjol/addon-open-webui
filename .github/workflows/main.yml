@@ -6,7 +6,7 @@ on:
 
 env:
   ARCHITECTURES: '["amd64"]'
-  IMAGE_NAME: open-webui
+  IMAGE_NAME: addon-open-webui
 
 permissions:
   contents: read
