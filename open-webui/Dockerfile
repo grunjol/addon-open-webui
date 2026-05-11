@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/open-webui/open-webui:dev-ollama
+ARG BUILD_FROM=ghcr.io/open-webui/open-webui:0.9.5-ollama
 FROM $BUILD_FROM
 
 COPY run.sh /
